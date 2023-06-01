@@ -1,0 +1,141 @@
+*{
+    font-family: 'Poppins';
+
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+}
+
+body{
+    background-color:#f5ebbc ;
+}
+header{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    font-weight: 520;
+
+}
+aside{
+    max-width: 500px;
+}
+#titulo{
+
+    font-family: 'Red Hat Display';
+    flex-direction: column;
+    line-height: 10px;
+    margin-right:83px;
+
+}
+.tt{
+    font-family: 'Red Hat Display';
+    font-size: 50px;
+}
+.tt2{
+    color: #5C289E;
+    font-size: 40px;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+h1{
+font-weight: 600;
+}
+
+h2{
+    line-height: 10px;
+    font-size: 42px;
+    font-family: 'poppinsmedium';
+}
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+p{
+
+    line-height: 20px;
+    max-width: 500px;
+}
+
+.texto1{
+
+color: #5C289E;
+font-size: 55px;
+}
+.texto2{
+
+    font-size: 50px;
+    }
+
+img{
+
+    width: 600px;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+p{
+    max-width: 500px;
+}
+
+a{
+        color:black;
+}
+a:hover{
+    color: #5C289E;
+}
+span{
+    color:rgb(132, 14, 201) ;
+    line-height: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+
+}
+#botaomargem{
+border: solid 3px  #823ddc;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#botaomargem:hover{
+background-color:#823ddc;
+color: white;
+
+}
+.enviar{
+    width: 232px;
+    height: 50px;
+    background-color: #823ddc;
+    font-weight: 420;
+}
+
+.enviar:hover{
+
+    cursor: pointer;
+   
+    color: white;
+    
+}
+input{
+    margin-top: 10px;
+    width: 360px;
+    height: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+}
+
+
